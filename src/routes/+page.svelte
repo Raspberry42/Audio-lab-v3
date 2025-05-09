@@ -1,5 +1,5 @@
 <h1 class="text-3xl font-bold underline">
-  Hello world!!
+Salut !!!!!!!
 </h1>
 <style lang="postcss">
   @reference "tailwindcss";

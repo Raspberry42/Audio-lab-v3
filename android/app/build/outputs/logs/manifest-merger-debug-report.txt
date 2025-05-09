@@ -92,6 +92,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\it
 		ADDED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:5:9-35
 	android:theme
 		ADDED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:10:9-40
+	android:usesCleartextTraffic
+		ADDED from [:capacitor-cordova-android-plugins] C:\Users\itachi\Desktop\App_capacitor\my-project\android\capacitor-cordova-android-plugins\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:18-53
 activity#com.example.app.MainActivity
 ADDED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:12:9-25:20
 	android:label
