@@ -15,6 +15,7 @@ ADDED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main
 INJECTED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:2:1-41:12
 INJECTED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:2:1-41:12
 INJECTED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:2:1-41:12
+MERGED from [:capacitor-filesystem] C:\Users\itachi\Desktop\App_capacitor\my-project\node_modules\@capacitor\filesystem\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
 MERGED from [:capacitor-android] C:\Users\itachi\Desktop\App_capacitor\my-project\node_modules\@capacitor\android\capacitor\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
 MERGED from [:capacitor-cordova-android-plugins] C:\Users\itachi\Desktop\App_capacitor\my-project\android\capacitor-cordova-android-plugins\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\itachi\.gradle\caches\8.11.1\transforms\9b15da8cc0e041224d73554e47a7d1c3\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
@@ -129,6 +130,8 @@ uses-sdk
 INJECTED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml
+MERGED from [:capacitor-filesystem] C:\Users\itachi\Desktop\App_capacitor\my-project\node_modules\@capacitor\filesystem\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-filesystem] C:\Users\itachi\Desktop\App_capacitor\my-project\node_modules\@capacitor\filesystem\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:capacitor-android] C:\Users\itachi\Desktop\App_capacitor\my-project\node_modules\@capacitor\android\capacitor\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:capacitor-android] C:\Users\itachi\Desktop\App_capacitor\my-project\node_modules\@capacitor\android\capacitor\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:capacitor-cordova-android-plugins] C:\Users\itachi\Desktop\App_capacitor\my-project\android\capacitor-cordova-android-plugins\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:6:5-44
