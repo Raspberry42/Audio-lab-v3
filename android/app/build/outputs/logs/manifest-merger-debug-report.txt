@@ -11,10 +11,10 @@ INJECTED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\m
 	android:name
 		ADDED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:28:13-62
 manifest
-ADDED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:2:1-42:12
 MERGED from [:capacitor-filesystem] C:\Users\itachi\Desktop\App_capacitor\my-project\node_modules\@capacitor\filesystem\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
 MERGED from [:capacitor-android] C:\Users\itachi\Desktop\App_capacitor\my-project\node_modules\@capacitor\android\capacitor\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
 MERGED from [:capacitor-cordova-android-plugins] C:\Users\itachi\Desktop\App_capacitor\my-project\android\capacitor-cordova-android-plugins\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-11:12
@@ -92,8 +92,6 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\it
 		ADDED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:5:9-35
 	android:theme
 		ADDED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:10:9-40
-	android:usesCleartextTraffic
-		ADDED from [:capacitor-cordova-android-plugins] C:\Users\itachi\Desktop\App_capacitor\my-project\android\capacitor-cordova-android-plugins\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:18-53
 activity#com.example.app.MainActivity
 ADDED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:12:9-25:20
 	android:label
@@ -119,9 +117,19 @@ ADDED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main
 	android:name
 		ADDED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:22:27-74
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:40:5-67
+ADDED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:39:5-67
 	android:name
-		ADDED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:40:22-64
+		ADDED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:39:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:40:5-107
+	android:maxSdkVersion
+		ADDED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:40:78-104
+	android:name
+		ADDED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:40:22-77
+uses-permission#android.permission.READ_MEDIA_AUDIO
+ADDED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:41:5-75
+	android:name
+		ADDED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:41:22-72
 meta-data#android.support.FILE_PROVIDER_PATHS
 ADDED from C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\AndroidManifest.xml:32:13-34:64
 	android:resource

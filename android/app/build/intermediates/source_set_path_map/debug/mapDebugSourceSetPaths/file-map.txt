@@ -30,3 +30,4 @@ com.example.app-debug-28 C:\Users\itachi\Desktop\App_capacitor\my-project\androi
 com.example.app-main-29 C:\Users\itachi\Desktop\App_capacitor\my-project\android\app\src\main\res
 com.example.app-debug-30 C:\Users\itachi\Desktop\App_capacitor\my-project\android\capacitor-cordova-android-plugins\build\intermediates\packaged_res\debug\packageDebugResources
 com.example.app-debug-31 C:\Users\itachi\Desktop\App_capacitor\my-project\node_modules\@capacitor\android\capacitor\build\intermediates\packaged_res\debug\packageDebugResources
+com.example.app-debug-32 C:\Users\itachi\Desktop\App_capacitor\my-project\node_modules\@capacitor\filesystem\android\build\intermediates\packaged_res\debug\packageDebugResources
