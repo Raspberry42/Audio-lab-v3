@@ -3,9 +3,11 @@
   let { children } = $props();
   import "../app.css";
   import AppInitService from '../lib/services/AppInitService.svelte';
+  import OrientationService from '../lib/services/OrientationService.svelte';
 </script>
 
-<!-- Component qui s'exécute au démarrage -->
+<!-- Components qui s'exécutent au démarrage -->
 <AppInitService />
+<OrientationService />
 
 {@render children()}
