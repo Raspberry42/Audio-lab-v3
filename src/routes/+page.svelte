@@ -1,6 +1,6 @@
 <!-- src/routes/+page.svelte -->
 <script>
-  import AudioImport from './AudioImport.svelte';
+  import AudioImport from '$lib/components/audioImport/AudioImport.svelte';
   import BoutonParametre from '$lib/components/parametres/Bouton.svelte';
   import SettingsModal from '$lib/components/parametres/SettingsModal.svelte';
   
