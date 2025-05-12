@@ -1,22 +1,12 @@
 <!-- src/lib/components/parametre/Bouton.svelte -->
 <script>
-  // Utiliser props au lieu de createEventDispatcher dans Svelte 5
-  let { onClick } = $props();
-  
-  // Fonction pour gérer les événements clavier
-  function handleKeydown(event) {
-    // Activer le bouton quand on appuie sur Entrée ou Espace
-    if (event.key === 'Enter' || event.key === ' ') {
-      event.preventDefault(); // Empêcher le défilement avec la touche Espace
-      onClick();
-    }
-  }
+  // Export standard
+  export let onClick;
 </script>
 
 <button 
   class="p-2 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors"
-  onclick={onClick}
-  onkeydown={handleKeydown}
+  on:click={onClick}
   aria-label="Paramètres"
 >
   <!-- Icône d'engrenage -->
