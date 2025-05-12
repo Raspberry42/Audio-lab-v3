@@ -4,6 +4,10 @@
         "source": "com.example.app-main-29:/drawable-land-mdpi/splash.png"
     },
     {
+        "merged": "com.example.app-debug-27:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.app-main-29:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
         "merged": "com.example.app-debug-27:/drawable-land-xhdpi_splash.png.flat",
         "source": "com.example.app-main-29:/drawable-land-xhdpi/splash.png"
     },
@@ -94,10 +98,6 @@
     {
         "merged": "com.example.app-debug-27:/xml_file_paths.xml.flat",
         "source": "com.example.app-main-29:/xml/file_paths.xml"
-    },
-    {
-        "merged": "com.example.app-debug-27:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.app-pngs-23:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
         "merged": "com.example.app-debug-27:/drawable-port-hdpi_splash.png.flat",
