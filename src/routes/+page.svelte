@@ -1,8 +1,8 @@
 <!-- src/routes/+page.svelte -->
 <script>
   import AudioImport from './AudioImport.svelte';
-  import BoutonParametre from '$lib/components/parametre/Bouton.svelte';
-  import SettingsModal from '$lib/components/parametre/SettingsModal.svelte';
+  import BoutonParametre from '$lib/components/parametres/Bouton.svelte';
+  import SettingsModal from '$lib/components/parametres/SettingsModal.svelte';
   
   // État pour contrôler l'ouverture du modal de paramètres
   let isSettingsOpen = false;
