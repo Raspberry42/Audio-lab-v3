@@ -1,8 +1,11 @@
 <script>
-    // AudioImport.svelte
+  // AudioImport.svelte
   import { onMount } from 'svelte';
   import { Filesystem, Directory } from '@capacitor/filesystem';
 
+  // Nom du dossier pour les fichiers audio
+  const AUDIO_FOLDER = 'audio_files';
+  
   let status = "";
   let isUploading = false;
   let progress = 0;
@@ -55,9 +58,12 @@
       // Créer un nom de fichier unique
       const fileName = `audio_${new Date().getTime()}.${fileExt}`;
       
+      // Chemin complet avec le dossier audio_files
+      const filePath = `${AUDIO_FOLDER}/${fileName}`;
+      
       // Enregistrer le fichier dans le stockage privé de l'application
       const result = await Filesystem.writeFile({
-        path: fileName,
+        path: filePath,
         data: base64Data,
         directory: Directory.Data,
         recursive: true
@@ -69,14 +75,21 @@
       
       // Lister les fichiers pour vérifier
       const files = await Filesystem.readdir({
-        path: '',
+        path: AUDIO_FOLDER,
         directory: Directory.Data
       });
       
       console.log("Fichiers dans le répertoire:", files.files);
       
     } catch (error) {
-      status = `Erreur lors de l'importation: ${error.message}`;
+      // Gestion des erreurs plus spécifique
+      if (error.message.includes("permission")) {
+        status = "Permission refusée pour accéder au stockage. Vérifiez les paramètres de l'application.";
+      } else if (error.message.includes("storage") || error.message.includes("space")) {
+        status = "Espace de stockage insuffisant";
+      } else {
+        status = `Erreur lors de l'importation: ${error.message}`;
+      }
       console.error("Erreur d'importation", error);
     } finally {
       setTimeout(() => {
