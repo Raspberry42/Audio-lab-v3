@@ -1,5 +1,5 @@
+<!-- src/routes/AudioImport.svelte -->
 <script>
-  // AudioImport.svelte
   import { onMount } from 'svelte';
   import { Filesystem, Directory } from '@capacitor/filesystem';
 

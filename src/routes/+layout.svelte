@@ -1,7 +1,8 @@
+<!-- src/routes/+layout.svelte -->
 <script>
   let { children } = $props();
   import "../app.css";
-  import AppInitService from '../lib/AppInitService.svelte';
+  import AppInitService from '../lib/services/AppInitService.svelte';
 </script>
 
 <!-- Component qui s'exécute au démarrage -->

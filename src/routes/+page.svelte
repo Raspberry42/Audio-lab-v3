@@ -1,13 +1,34 @@
+<!-- src/routes/+page.svelte -->
 <script>
   import AudioImport from './AudioImport.svelte';
+  import BoutonParametre from '$lib/components/parametre/Bouton.svelte';
+  import SettingsModal from '$lib/components/parametre/SettingsModal.svelte';
+  
+  // État pour contrôler l'ouverture du modal de paramètres
+  let isSettingsOpen = false;
+  
+  // Fonction pour ouvrir les paramètres
+  function openSettings() {
+    isSettingsOpen = true;
+  }
 </script>
 
 <div class="p-4">
-  <h1 class="text-3xl font-bold underline mb-6">
-    Salut !!!!!!!
-  </h1>
+  <!-- En-tête avec titre et bouton de paramètres -->
+  <div class="flex justify-between items-center mb-4">
+    <h1 class="text-3xl font-bold">
+      Salut !!!!!!!
+    </h1>
+    
+    <!-- Bouton de paramètres avec gestionnaire d'événement -->
+    <BoutonParametre onClick={openSettings} />
+  </div>
   
+  <!-- Composant d'importation audio -->
   <AudioImport />
+  
+  <!-- Modal des paramètres avec liaison bidirectionnelle -->
+  <SettingsModal bind:isOpen={isSettingsOpen} />
 </div>
 
 <style lang="postcss">
